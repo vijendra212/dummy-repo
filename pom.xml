@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>temp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>temp</name>
 	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
@@ -37,6 +37,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>temp-0.0.1</finalName>
 	</build>
 
 </project>
