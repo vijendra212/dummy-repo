@@ -32,8 +32,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         image: vijendra212/java-images
-        push: true
-        tags: user/app:latest
+        tags: latest
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKERHUB_USERNAME }}
