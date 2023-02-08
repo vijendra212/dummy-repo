@@ -8,3 +8,11 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done."
+  windows-job: 
+    runs-on: windows-latest
+    steps: 
+      - name: Directory PowerShell
+        run: Get-Location
+      - name: Directory Bash
+        run: pwd
+        shell: bash
