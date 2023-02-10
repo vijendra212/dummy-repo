@@ -8,8 +8,6 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done."
-      - name: Checkout
-        uses: actions/checkout@v1
   windows-job: 
     runs-on: windows-latest
     steps: 
@@ -18,3 +16,5 @@ jobs:
       - name: Directory Bash
         run: pwd
         shell: bash
+      - name: Checkout
+        uses: actions/checkout@v1
